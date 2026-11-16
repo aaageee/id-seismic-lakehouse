@@ -1,0 +1,55 @@
+name: refresh-dashboard
+
+# Rebuilds the warehouse from the public USGS API every night (03:17 WIB) and
+# publishes the resulting static dashboard to GitHub Pages.
+on:
+  schedule:
+    - cron: "17 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Ingest, model, test and render
+        run: python -m pipeline all --days 365
+
+      - name: Summarise the build
+        run: |
+          python - <<'PY'
+          import duckdb
+          con = duckdb.connect("data/warehouse/seismic.duckdb", read_only=True)
+          row = con.execute("select valid_events, coverage_days, latest_event_utc from gold.mart_pipeline_health").fetchone()
+          print(f"events={row[0]} coverage_days={row[1]} latest={row[2]}")
+          PY
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

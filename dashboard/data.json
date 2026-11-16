@@ -1,0 +1,2085 @@
+{
+  "generated_at": "2026-11-17T00:32:40",
+  "window": {
+    "start": "18 Nov 2025",
+    "end": "16 Nov 2026",
+    "coverage_days": 364
+  },
+  "kpis": {
+    "n_events": 3051,
+    "max_magnitude": 7.8,
+    "n_m5": 364,
+    "n_m6": 22,
+    "n_tsunami": 1,
+    "n_regions": 32,
+    "first_event": "2025-11-18T14:41:03.615000",
+    "latest_event": "2026-11-16T15:14:14.483000",
+    "avg_depth_km": 63.75306719108495,
+    "total_energy_tons": 18959041.617523022
+  },
+  "health": {
+    "total_raw_rows": 3051,
+    "latest_revision_rows": 3051,
+    "duplicate_rows_removed": 0,
+    "quarantined_rows": 0,
+    "valid_events": 3051,
+    "invalid_events": 0,
+    "ingest_days": 1,
+    "ingest_files": 1,
+    "last_ingest_date": "2026-11-16",
+    "last_loaded_at": "2026-11-17T00:24:06.871459+07:00",
+    "first_event_utc": "2025-11-18T13:41:03.615000+07:00",
+    "latest_event_utc": "2026-11-16T14:14:14.483000+07:00",
+    "latest_event_local": "2026-11-16T15:14:14.483000",
+    "first_event_date": "2025-11-18",
+    "latest_event_date": "2026-11-16",
+    "coverage_days": 364,
+    "event_age_hours": 10,
+    "distinct_regions": 32,
+    "null_region_rows": 0,
+    "null_magnitude_rows": 0,
+    "min_latitude": -11.7572,
+    "max_latitude": 6.4883,
+    "min_longitude": 94.0331,
+    "max_longitude": 141.4167
+  },
+  "regions": [
+    {
+      "region": "Sulawesi Utara",
+      "island": "Sulawesi",
+      "n_events": 861,
+      "max_magnitude": 7.8,
+      "n_m5plus": 106,
+      "avg_depth_km": 55.46081416957033,
+      "days_since_m5": 0,
+      "b_value": 1.1035494660128728
+    },
+    {
+      "region": "Maluku Utara",
+      "island": "Maluku",
+      "n_events": 532,
+      "max_magnitude": 7.4,
+      "n_m5plus": 65,
+      "avg_depth_km": 56.32973120300751,
+      "days_since_m5": 6,
+      "b_value": 1.1684472049452113
+    },
+    {
+      "region": "Maluku",
+      "island": "Maluku",
+      "n_events": 354,
+      "max_magnitude": 6.2,
+      "n_m5plus": 35,
+      "avg_depth_km": 133.42581073446323,
+      "days_since_m5": 0,
+      "b_value": 1.131571340829569
+    },
+    {
+      "region": "Sulawesi Selatan",
+      "island": "Sulawesi",
+      "n_events": 329,
+      "max_magnitude": 5.9,
+      "n_m5plus": 41,
+      "avg_depth_km": 23.911735562310028,
+      "days_since_m5": 29,
+      "b_value": 1.1820397747455558
+    },
+    {
+      "region": "Nusa Tenggara Timur",
+      "island": "Nusa Tenggara",
+      "n_events": 221,
+      "max_magnitude": 7.8,
+      "n_m5plus": 31,
+      "avg_depth_km": 79.93036651583711,
+      "days_since_m5": 21,
+      "b_value": 1.1317855292250982
+    },
+    {
+      "region": "Nusa Tenggara Barat",
+      "island": "Nusa Tenggara",
+      "n_events": 72,
+      "max_magnitude": 5.8,
+      "n_m5plus": 6,
+      "avg_depth_km": 75.85312500000003,
+      "days_since_m5": 43,
+      "b_value": 1.0810571971005971
+    },
+    {
+      "region": "Papua Pegunungan",
+      "island": "Papua",
+      "n_events": 72,
+      "max_magnitude": 5.7,
+      "n_m5plus": 7,
+      "avg_depth_km": 23.959388888888892,
+      "days_since_m5": 75,
+      "b_value": 1.0589713642744265
+    },
+    {
+      "region": "Gorontalo",
+      "island": "Sulawesi",
+      "n_events": 68,
+      "max_magnitude": 5.5,
+      "n_m5plus": 10,
+      "avg_depth_km": 159.32029411764708,
+      "days_since_m5": 1,
+      "b_value": 0.9287453386285623
+    },
+    {
+      "region": "Sumatera Utara",
+      "island": "Sumatra",
+      "n_events": 63,
+      "max_magnitude": 6.9,
+      "n_m5plus": 10,
+      "avg_depth_km": 53.05296825396827,
+      "days_since_m5": 72,
+      "b_value": 0.8527825659912699
+    },
+    {
+      "region": "Bengkulu",
+      "island": "Sumatra",
+      "n_events": 61,
+      "max_magnitude": 5.4,
+      "n_m5plus": 10,
+      "avg_depth_km": 50.59483606557378,
+      "days_since_m5": 97,
+      "b_value": 0.8904062721719345
+    },
+    {
+      "region": "Papua",
+      "island": "Papua",
+      "n_events": 48,
+      "max_magnitude": 5.4,
+      "n_m5plus": 5,
+      "avg_depth_km": 27.028145833333326,
+      "days_since_m5": 58,
+      "b_value": 0.9033107065971997
+    },
+    {
+      "region": "Sumatera Barat",
+      "island": "Sumatra",
+      "n_events": 44,
+      "max_magnitude": 5.6,
+      "n_m5plus": 5,
+      "avg_depth_km": 51.726749999999996,
+      "days_since_m5": 90,
+      "b_value": 0.9531254004055596
+    }
+  ],
+  "daily": [
+    {
+      "activity_date": "2026-06-20",
+      "n_events": 16,
+      "n_m25_39": 0,
+      "n_m40_49": 14,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 1678.511210167101,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-06-21",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 284.09457810638946,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-06-22",
+      "n_events": 2,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.5,
+      "energy_tons_tnt": 144.8379618509881,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-06-23",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 717.1206360056296,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-06-24",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 9,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 663.951247225807,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-06-25",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 553.4485685591985,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-06-26",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 1,
+      "max_magnitude": 6.5,
+      "energy_tons_tnt": 85212.09919329507,
+      "felt_reports": 72
+    },
+    {
+      "activity_date": "2026-06-27",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.9,
+      "energy_tons_tnt": 12793.436816398635,
+      "felt_reports": 12
+    },
+    {
+      "activity_date": "2026-06-28",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 736.8099355976622,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-06-29",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1891.3327105144124,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-06-30",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 392.9336087828973,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-01",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 624.0163599179706,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-07-02",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.5,
+      "energy_tons_tnt": 217.42889927529725,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-03",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 0,
+      "n_m60plus": 1,
+      "max_magnitude": 6.2,
+      "energy_tons_tnt": 31356.614911268134,
+      "felt_reports": 12
+    },
+    {
+      "activity_date": "2026-07-04",
+      "n_events": 17,
+      "n_m25_39": 0,
+      "n_m40_49": 15,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 3017.326989992558,
+      "felt_reports": 6
+    },
+    {
+      "activity_date": "2026-07-05",
+      "n_events": 1,
+      "n_m25_39": 0,
+      "n_m40_49": 1,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 119.78662371588706,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-06",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.9,
+      "energy_tons_tnt": 12105.796605226404,
+      "felt_reports": 12
+    },
+    {
+      "activity_date": "2026-07-07",
+      "n_events": 11,
+      "n_m25_39": 0,
+      "n_m40_49": 10,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 2413.1304277993277,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-07-08",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 9,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 1890.5960813600498,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-07-09",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 373.9935229491387,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-07-10",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 921.7096950067883,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-11",
+      "n_events": 12,
+      "n_m25_39": 0,
+      "n_m40_49": 11,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 2913.515580014273,
+      "felt_reports": 5
+    },
+    {
+      "activity_date": "2026-07-12",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 4211.033023293222,
+      "felt_reports": 5
+    },
+    {
+      "activity_date": "2026-07-13",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 332.68146222376544,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-07-14",
+      "n_events": 11,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 2,
+      "n_m60plus": 1,
+      "max_magnitude": 6.2,
+      "energy_tons_tnt": 32360.14031583622,
+      "felt_reports": 99
+    },
+    {
+      "activity_date": "2026-07-15",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 561.5337893681708,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-07-16",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 381.3098718583137,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-17",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 255.22234872176205,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-18",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 3424.9058911364723,
+      "felt_reports": 8
+    },
+    {
+      "activity_date": "2026-07-19",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 856.3151398380928,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-07-20",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 808.6551927960879,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-07-21",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 9,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 617.8446010332231,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-22",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 2450.283821756695,
+      "felt_reports": 10
+    },
+    {
+      "activity_date": "2026-07-23",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.3,
+      "energy_tons_tnt": 139.06162801723718,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-24",
+      "n_events": 14,
+      "n_m25_39": 0,
+      "n_m40_49": 11,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 2500.0429518342717,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-25",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 1187.942088959471,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-26",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 1681.6705286761778,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-07-27",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 192.66199055574234,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-07-28",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 957.5687261421107,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-07-29",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 1299.0692174376015,
+      "felt_reports": 20
+    },
+    {
+      "activity_date": "2026-07-30",
+      "n_events": 20,
+      "n_m25_39": 0,
+      "n_m40_49": 19,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 3773.060274073886,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-07-31",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 234.67809847998677,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-01",
+      "n_events": 19,
+      "n_m25_39": 0,
+      "n_m40_49": 16,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 3692.7359738873083,
+      "felt_reports": 4
+    },
+    {
+      "activity_date": "2026-08-02",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 434.5317361080361,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-03",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 374.0765917589945,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-04",
+      "n_events": 0,
+      "n_m25_39": 0,
+      "n_m40_49": 0,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": null,
+      "energy_tons_tnt": 0.0,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-05",
+      "n_events": 36,
+      "n_m25_39": 0,
+      "n_m40_49": 31,
+      "n_m50_59": 4,
+      "n_m60plus": 1,
+      "max_magnitude": 6.3,
+      "energy_tons_tnt": 53755.228571879066,
+      "felt_reports": 80
+    },
+    {
+      "activity_date": "2026-08-06",
+      "n_events": 14,
+      "n_m25_39": 0,
+      "n_m40_49": 12,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.6,
+      "energy_tons_tnt": 6193.511869900761,
+      "felt_reports": 16
+    },
+    {
+      "activity_date": "2026-08-07",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 637.9917890081565,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-08",
+      "n_events": 11,
+      "n_m25_39": 0,
+      "n_m40_49": 11,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 1019.310337539186,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-09",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1398.2838405942387,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-10",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 1369.7311945257393,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-11",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 1098.7669476522415,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-12",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 978.0765533160123,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-13",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 1074.6285167965657,
+      "felt_reports": 14
+    },
+    {
+      "activity_date": "2026-08-14",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 1805.471432718564,
+      "felt_reports": 5
+    },
+    {
+      "activity_date": "2026-08-15",
+      "n_events": 91,
+      "n_m25_39": 0,
+      "n_m40_49": 68,
+      "n_m50_59": 20,
+      "n_m60plus": 3,
+      "max_magnitude": 7.8,
+      "energy_tons_tnt": 7965586.571627421,
+      "felt_reports": 113
+    },
+    {
+      "activity_date": "2026-08-16",
+      "n_events": 58,
+      "n_m25_39": 0,
+      "n_m40_49": 52,
+      "n_m50_59": 6,
+      "n_m60plus": 0,
+      "max_magnitude": 5.8,
+      "energy_tons_tnt": 17344.795312799204,
+      "felt_reports": 3
+    },
+    {
+      "activity_date": "2026-08-17",
+      "n_events": 53,
+      "n_m25_39": 1,
+      "n_m40_49": 44,
+      "n_m50_59": 8,
+      "n_m60plus": 0,
+      "max_magnitude": 5.5,
+      "energy_tons_tnt": 12309.417619753514,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-08-18",
+      "n_events": 29,
+      "n_m25_39": 0,
+      "n_m40_49": 28,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.6,
+      "energy_tons_tnt": 6492.836203674322,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-19",
+      "n_events": 38,
+      "n_m25_39": 0,
+      "n_m40_49": 37,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 4511.983790508897,
+      "felt_reports": 4
+    },
+    {
+      "activity_date": "2026-08-20",
+      "n_events": 41,
+      "n_m25_39": 0,
+      "n_m40_49": 34,
+      "n_m50_59": 7,
+      "n_m60plus": 0,
+      "max_magnitude": 5.7,
+      "energy_tons_tnt": 17325.01924548506,
+      "felt_reports": 8
+    },
+    {
+      "activity_date": "2026-08-21",
+      "n_events": 30,
+      "n_m25_39": 0,
+      "n_m40_49": 26,
+      "n_m50_59": 4,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 4917.843936941078,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-22",
+      "n_events": 17,
+      "n_m25_39": 0,
+      "n_m40_49": 14,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.7,
+      "energy_tons_tnt": 8251.378374035583,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-08-23",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 535.9149399389628,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-24",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 1,
+      "n_m60plus": 1,
+      "max_magnitude": 6.0,
+      "energy_tons_tnt": 17899.661575626513,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-25",
+      "n_events": 12,
+      "n_m25_39": 1,
+      "n_m40_49": 9,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 2208.4805296552313,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-08-26",
+      "n_events": 26,
+      "n_m25_39": 0,
+      "n_m40_49": 25,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 2523.535628553314,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-27",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1763.062818776044,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-28",
+      "n_events": 15,
+      "n_m25_39": 0,
+      "n_m40_49": 15,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 1347.336462478493,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-08-29",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 994.1181722553627,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-08-30",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 10,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 984.0248231210803,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-08-31",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 9,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1356.6116456676245,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-01",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 3233.272858716288,
+      "felt_reports": 12
+    },
+    {
+      "activity_date": "2026-09-02",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 1940.9602689389967,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-03",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.5,
+      "energy_tons_tnt": 174.9270013298163,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-04",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 2325.557805781648,
+      "felt_reports": 5
+    },
+    {
+      "activity_date": "2026-09-05",
+      "n_events": 11,
+      "n_m25_39": 0,
+      "n_m40_49": 10,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1903.122969487952,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-09-06",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 361.04176324669174,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-07",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 260.1321578264686,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-08",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 2401.630841416211,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-09-09",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 805.3070305444444,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-09-10",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 340.08426758911753,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-11",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.9,
+      "energy_tons_tnt": 11400.24860100497,
+      "felt_reports": 12
+    },
+    {
+      "activity_date": "2026-09-12",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 0,
+      "n_m60plus": 1,
+      "max_magnitude": 6.5,
+      "energy_tons_tnt": 85472.08763966954,
+      "felt_reports": 21
+    },
+    {
+      "activity_date": "2026-09-13",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.5,
+      "energy_tons_tnt": 196.2284099850205,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-14",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.6,
+      "energy_tons_tnt": 5962.790014793614,
+      "felt_reports": 3
+    },
+    {
+      "activity_date": "2026-09-15",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 783.3351497303133,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-16",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 280.1906180470073,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-17",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1241.174897300204,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-18",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1445.0777596575633,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-19",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 2308.143053840315,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-09-20",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 231.21259841563605,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-21",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 1246.7189520390555,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-22",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 1640.5354604505496,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-23",
+      "n_events": 2,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.5,
+      "energy_tons_tnt": 106.10384394047574,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-24",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 299.60877399749074,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-25",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 1047.4018495481446,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-09-26",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 414.07528985942344,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-27",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 517.4267259562583,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-28",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 715.6503080743082,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-29",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 509.0660769401203,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-09-30",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 482.4425375256428,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-10-01",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 7,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.3,
+      "energy_tons_tnt": 2281.7601578062877,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-10-02",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 681.2004464304966,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-03",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 160.11956491557413,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-04",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.7,
+      "energy_tons_tnt": 7685.054859965572,
+      "felt_reports": 5
+    },
+    {
+      "activity_date": "2026-10-05",
+      "n_events": 8,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 567.8606101127136,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-10-06",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 858.2694502041994,
+      "felt_reports": 3
+    },
+    {
+      "activity_date": "2026-10-07",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 9,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 928.9681896853401,
+      "felt_reports": 16
+    },
+    {
+      "activity_date": "2026-10-08",
+      "n_events": 18,
+      "n_m25_39": 0,
+      "n_m40_49": 16,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.5,
+      "energy_tons_tnt": 4574.684954242372,
+      "felt_reports": 18
+    },
+    {
+      "activity_date": "2026-10-09",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1628.1933237604076,
+      "felt_reports": 2
+    },
+    {
+      "activity_date": "2026-10-10",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 1341.596465413018,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-11",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1236.196679538561,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-10-12",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 9,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 1791.0392804453593,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-13",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 8,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 1261.365248759091,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-14",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 286.4117842433159,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-10-15",
+      "n_events": 1,
+      "n_m25_39": 0,
+      "n_m40_49": 1,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.0,
+      "energy_tons_tnt": 15.080242458895656,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-16",
+      "n_events": 1,
+      "n_m25_39": 0,
+      "n_m40_49": 1,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 169.20310334228975,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-17",
+      "n_events": 9,
+      "n_m25_39": 0,
+      "n_m40_49": 9,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.6,
+      "energy_tons_tnt": 529.6645295703437,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-18",
+      "n_events": 1,
+      "n_m25_39": 0,
+      "n_m40_49": 0,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.2,
+      "energy_tons_tnt": 951.4989735982278,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-19",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 10,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 1212.5184481715364,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-20",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 784.00562188924,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-21",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 754.9466224256171,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-10-22",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 412.720344699267,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-23",
+      "n_events": 10,
+      "n_m25_39": 0,
+      "n_m40_49": 10,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 848.1468568976065,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-24",
+      "n_events": 0,
+      "n_m25_39": 0,
+      "n_m40_49": 0,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": null,
+      "energy_tons_tnt": 0.0,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-25",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 6,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 662.2825383623182,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-26",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 878.6003779834055,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-27",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 2446.0058101872028,
+      "felt_reports": 3
+    },
+    {
+      "activity_date": "2026-10-28",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 5,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 2051.335380058157,
+      "felt_reports": 15
+    },
+    {
+      "activity_date": "2026-10-29",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.7,
+      "energy_tons_tnt": 6844.5756243770675,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-30",
+      "n_events": 2,
+      "n_m25_39": 0,
+      "n_m40_49": 1,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 519.3810363223649,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-10-31",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.3,
+      "energy_tons_tnt": 136.3942440249943,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-01",
+      "n_events": 2,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 120.07105313143319,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-02",
+      "n_events": 6,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 1531.0937341415108,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-11-03",
+      "n_events": 1,
+      "n_m25_39": 0,
+      "n_m40_49": 1,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 239.0057361376673,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-04",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 540.6824449775692,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-05",
+      "n_events": 1,
+      "n_m25_39": 0,
+      "n_m40_49": 1,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.4,
+      "energy_tons_tnt": 60.035526565716594,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-06",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.9,
+      "energy_tons_tnt": 427.72914171919945,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-07",
+      "n_events": 3,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.8,
+      "energy_tons_tnt": 418.82788641927095,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-08",
+      "n_events": 1,
+      "n_m25_39": 0,
+      "n_m40_49": 1,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 169.20310334228975,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-09",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 2468.987405893441,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-10",
+      "n_events": 7,
+      "n_m25_39": 0,
+      "n_m40_49": 4,
+      "n_m50_59": 3,
+      "n_m60plus": 0,
+      "max_magnitude": 5.4,
+      "energy_tons_tnt": 3430.2887421920104,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-11-11",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 1047.4018495481446,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-11-12",
+      "n_events": 2,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 254.0055386275613,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-13",
+      "n_events": 2,
+      "n_m25_39": 0,
+      "n_m40_49": 2,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": 4.7,
+      "energy_tons_tnt": 229.23862990800635,
+      "felt_reports": 1
+    },
+    {
+      "activity_date": "2026-11-14",
+      "n_events": 0,
+      "n_m25_39": 0,
+      "n_m40_49": 0,
+      "n_m50_59": 0,
+      "n_m60plus": 0,
+      "max_magnitude": null,
+      "energy_tons_tnt": 0.0,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-15",
+      "n_events": 4,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 1,
+      "n_m60plus": 0,
+      "max_magnitude": 5.1,
+      "energy_tons_tnt": 938.2342727715715,
+      "felt_reports": 0
+    },
+    {
+      "activity_date": "2026-11-16",
+      "n_events": 5,
+      "n_m25_39": 0,
+      "n_m40_49": 3,
+      "n_m50_59": 2,
+      "n_m60plus": 0,
+      "max_magnitude": 5.0,
+      "energy_tons_tnt": 1086.3847407437938,
+      "felt_reports": 0
+    }
+  ],
+  "magnitude_frequency": [
+    {
+      "mag_bin": 4.0,
+      "n_cumulative": 3045
+    },
+    {
+      "mag_bin": 4.1,
+      "n_cumulative": 2973
+    },
+    {
+      "mag_bin": 4.2,
+      "n_cumulative": 2765
+    },
+    {
+      "mag_bin": 4.3,
+      "n_cumulative": 2450
+    },
+    {
+      "mag_bin": 4.4,
+      "n_cumulative": 2003
+    },
+    {
+      "mag_bin": 4.5,
+      "n_cumulative": 1491
+    },
+    {
+      "mag_bin": 4.6,
+      "n_cumulative": 1075
+    },
+    {
+      "mag_bin": 4.7,
+      "n_cumulative": 781
+    },
+    {
+      "mag_bin": 4.8,
+      "n_cumulative": 625
+    },
+    {
+      "mag_bin": 4.9,
+      "n_cumulative": 509
+    },
+    {
+      "mag_bin": 5.0,
+      "n_cumulative": 364
+    },
+    {
+      "mag_bin": 5.1,
+      "n_cumulative": 264
+    },
+    {
+      "mag_bin": 5.2,
+      "n_cumulative": 185
+    },
+    {
+      "mag_bin": 5.3,
+      "n_cumulative": 121
+    },
+    {
+      "mag_bin": 5.4,
+      "n_cumulative": 93
+    },
+    {
+      "mag_bin": 5.5,
+      "n_cumulative": 73
+    },
+    {
+      "mag_bin": 5.6,
+      "n_cumulative": 57
+    },
+    {
+      "mag_bin": 5.7,
+      "n_cumulative": 47
+    },
+    {
+      "mag_bin": 5.8,
+      "n_cumulative": 36
+    },
+    {
+      "mag_bin": 5.9,
+      "n_cumulative": 28
+    },
+    {
+      "mag_bin": 6.0,
+      "n_cumulative": 22
+    },
+    {
+      "mag_bin": 6.1,
+      "n_cumulative": 19
+    },
+    {
+      "mag_bin": 6.2,
+      "n_cumulative": 17
+    },
+    {
+      "mag_bin": 6.3,
+      "n_cumulative": 12
+    },
+    {
+      "mag_bin": 6.4,
+      "n_cumulative": 10
+    },
+    {
+      "mag_bin": 6.5,
+      "n_cumulative": 8
+    },
+    {
+      "mag_bin": 6.7,
+      "n_cumulative": 5
+    }
+  ],
+  "b_value": 1.1227955373688212,
+  "depth_profile": [
+    {
+      "depth_class": "Shallow (<70 km)",
+      "min_depth_km": 4.078,
+      "max_depth_km": 69.919,
+      "n_events": 2251,
+      "share": 0.7377908882333661,
+      "max_magnitude": 7.8,
+      "avg_magnitude": 4.553176366059511,
+      "energy_tons_tnt": 18212201.06484347
+    },
+    {
+      "depth_class": "Intermediate (70-300 km)",
+      "min_depth_km": 70.007,
+      "max_depth_km": 295.05,
+      "n_events": 702,
+      "share": 0.23008849557522124,
+      "max_magnitude": 6.9,
+      "avg_magnitude": 4.463960113960118,
+      "energy_tons_tnt": 644883.9257280175
+    },
+    {
+      "depth_class": "Deep (>300 km)",
+      "min_depth_km": 305.989,
+      "max_depth_km": 664.571,
+      "n_events": 98,
+      "share": 0.032120616191412654,
+      "max_magnitude": 6.5,
+      "avg_magnitude": 4.3591836734693885,
+      "energy_tons_tnt": 101956.62695135242
+    }
+  ],
+  "latest_events": [
+    {
+      "event_time_local": "2026-11-16T15:14:14.483000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 5.0,
+      "depth_km": 10.0,
+      "region": "Sulawesi Utara",
+      "place": "68 km S of Sarangani, Philippines",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyil"
+    },
+    {
+      "event_time_local": "2026-11-16T15:08:09.864000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.3,
+      "depth_km": 138.691,
+      "region": "Maluku",
+      "place": "297 km SSE of Amahai, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyii"
+    },
+    {
+      "event_time_local": "2026-11-16T04:51:56.298000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 5.0,
+      "depth_km": 305.989,
+      "region": "Maluku",
+      "place": "256 km SSE of Ambon, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyg6"
+    },
+    {
+      "event_time_local": "2026-11-16T03:38:39.971000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.4,
+      "depth_km": 96.271,
+      "region": "Sulawesi Utara",
+      "place": "102 km ESE of Sarangani, Philippines",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyg0"
+    },
+    {
+      "event_time_local": "2026-11-16T00:06:14.983000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.2,
+      "depth_km": 121.411,
+      "region": "Maluku",
+      "place": "273 km W of Tual, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyfb"
+    },
+    {
+      "event_time_local": "2026-11-15T23:41:14.978000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 5.1,
+      "depth_km": 487.384,
+      "region": "Gorontalo",
+      "place": "169 km NW of Gorontalo, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyf4"
+    },
+    {
+      "event_time_local": "2026-11-15T17:24:50.714000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.4,
+      "depth_km": 10.0,
+      "region": "Nusa Tenggara Timur",
+      "place": "22 km ESE of Ruteng, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tydm"
+    },
+    {
+      "event_time_local": "2026-11-15T05:24:20.159000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.5,
+      "depth_km": 10.0,
+      "region": "Sulawesi Selatan",
+      "place": "25 km N of Ruteng, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyan"
+    },
+    {
+      "event_time_local": "2026-11-15T00:56:39.533000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.6,
+      "depth_km": 65.399,
+      "region": "Sulawesi Utara",
+      "place": "96 km SSE of Pondaguitan, Philippines",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ty9v"
+    },
+    {
+      "event_time_local": "2026-11-13T15:55:35.646000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.4,
+      "depth_km": 10.0,
+      "region": "Papua Barat Daya",
+      "place": "152 km WSW of Fakfak, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txyq"
+    },
+    {
+      "event_time_local": "2026-11-13T11:49:33.549000",
+      "local_timezone": "Asia/Jakarta",
+      "magnitude": 4.7,
+      "depth_km": 9.626,
+      "region": "Nusa Tenggara Barat",
+      "place": "27 km NNE of Labuan Lombok, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txy5"
+    },
+    {
+      "event_time_local": "2026-11-12T22:58:32.284000",
+      "local_timezone": "Asia/Makassar",
+      "magnitude": 4.5,
+      "depth_km": 39.203,
+      "region": "Maluku Utara",
+      "place": "115 km ESE of Bitung, Indonesia",
+      "tsunami": false,
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000txtd"
+    }
+  ]
+}

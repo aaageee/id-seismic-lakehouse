@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: >
+      Raw USGS GeoJSON documents, one row per ingested partition. Created by
+      `python -m pipeline load`; never edited by dbt.
+    schema: bronze
+    tables:
+      - name: usgs_events
+        description: One FeatureCollection per ingest day with the untouched USGS payload.
+        loaded_at_field: _loaded_at
+        freshness:
+          warn_after: { count: 72, period: hour }
+          error_after: { count: 336, period: hour }
+        columns:
+          - name: features
+            description: JSON array of GeoJSON features (the payload we care about).
+          - name: _source_file
+            description: Absolute path of the partition file, kept for lineage.
+          - name: _ingest_date
+            description: Ingestion date parsed from the `dt=` partition folder.
+          - name: _loaded_at
+            description: Warehouse load timestamp (used for source freshness).

@@ -1,0 +1,39 @@
+province,island,lat,lon
+Aceh,Sumatra,5.5483,95.3238
+Sumatera Utara,Sumatra,3.5952,98.6722
+Sumatera Barat,Sumatra,-0.9471,100.4172
+Riau,Sumatra,0.5071,101.4478
+Kepulauan Riau,Sumatra,0.9186,104.4665
+Jambi,Sumatra,-1.6101,103.6131
+Bengkulu,Sumatra,-3.8004,102.2655
+Sumatera Selatan,Sumatra,-2.9761,104.7754
+Kepulauan Bangka Belitung,Sumatra,-2.1316,106.1169
+Lampung,Sumatra,-5.3971,105.2668
+Banten,Java,-6.1104,106.1503
+DKI Jakarta,Java,-6.2088,106.8456
+Jawa Barat,Java,-6.9175,107.6191
+Jawa Tengah,Java,-6.9932,110.4203
+DI Yogyakarta,Java,-7.7956,110.3695
+Jawa Timur,Java,-7.2575,112.7521
+Bali,Nusa Tenggara,-8.6705,115.2126
+Nusa Tenggara Barat,Nusa Tenggara,-8.5833,116.1167
+Nusa Tenggara Timur,Nusa Tenggara,-10.1772,123.6070
+Kalimantan Barat,Kalimantan,-0.0263,109.3425
+Kalimantan Tengah,Kalimantan,-2.2080,113.9165
+Kalimantan Selatan,Kalimantan,-3.3186,114.5944
+Kalimantan Timur,Kalimantan,-0.5022,117.1536
+Kalimantan Utara,Kalimantan,3.2945,117.5919
+Sulawesi Utara,Sulawesi,1.4748,124.8421
+Sulawesi Tengah,Sulawesi,-0.8917,119.8707
+Sulawesi Selatan,Sulawesi,-5.1477,119.4327
+Sulawesi Tenggara,Sulawesi,-3.9450,122.4989
+Gorontalo,Sulawesi,0.5435,123.0568
+Sulawesi Barat,Sulawesi,-2.6748,118.8885
+Maluku,Maluku,-3.6954,128.1814
+Maluku Utara,Maluku,0.7900,127.3800
+Papua,Papua,-2.5337,140.7181
+Papua Barat,Papua,-0.8615,134.0620
+Papua Barat Daya,Papua,-0.8762,131.2558
+Papua Tengah,Papua,-3.3500,135.4833
+Papua Pegunungan,Papua,-4.0975,138.9500
+Papua Selatan,Papua,-8.4932,140.4018

@@ -1,0 +1,41 @@
+version: 2
+
+models:
+  - name: stg_usgs__events
+    description: >
+      Cleaned, typed and deduplicated USGS events. Keeps every revision of every
+      event with an `is_latest_revision` flag plus an `is_valid_event` flag, so
+      downstream models can filter instead of silently losing rows.
+    columns:
+      - name: event_id
+        description: USGS event identifier (for example `us6000typ0`).
+        tests:
+          - not_null
+      - name: magnitude
+        description: Moment/preferred magnitude as reported by USGS.
+      - name: event_time_utc
+        description: Origin time in UTC, converted from the USGS epoch-millisecond field.
+      - name: depth_km
+        description: Hypocentre depth in kilometres (positive down).
+      - name: latitude
+        description: Epicentre latitude, decimal degrees.
+      - name: longitude
+        description: Epicentre longitude, decimal degrees.
+      - name: is_tsunami
+        description: True when the USGS tsunami flag is set (bulletin issued, not a warning).
+      - name: is_latest_revision
+        description: True for the newest revision of an event id.
+        tests:
+          - not_null
+      - name: is_valid_event
+        description: Structural validity used by the quarantine model.
+        tests:
+          - not_null
+      - name: review_status
+        description: USGS review state (`reviewed` or `automatic`).
+        tests:
+          - accepted_values:
+              arguments:
+                values: ["reviewed", "automatic", "deleted"]
+                config:
+                  where: "review_status is not null"

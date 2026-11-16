@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# dbt
+target/
+logs/
+dbt_packages/
+package-lock.yml
+
+# generated pipeline artefacts (the sample lake is committed on purpose)
+build/
+data/lake/
+data/warehouse/
+reports/
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/

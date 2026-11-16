@@ -1,0 +1,124 @@
+version: 2
+
+models:
+  - name: fct_earthquakes
+    description: >
+      Gold fact table at one row per earthquake. Includes magnitude/depth
+      classes, local time (WIB/WITA/WIT), nearest province and energy in tons
+      of TNT.
+    columns:
+      - name: event_id
+        description: Primary key, USGS event id.
+        tests:
+          - unique
+          - not_null
+      - name: event_time_utc
+        description: Origin time in UTC.
+        tests:
+          - not_null
+      - name: magnitude
+        description: Reported magnitude.
+        tests:
+          - not_null
+      - name: magnitude_class
+        description: Bucketed magnitude used by the dashboard stack chart.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["M2.5-3.9", "M4.0-4.9", "M5.0-5.9", "M6.0+"]
+      - name: depth_class
+        description: Shallow / intermediate / deep, using the 70 km and 300 km cut-offs.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - "Shallow (<70 km)"
+                  - "Intermediate (70-300 km)"
+                  - "Deep (>300 km)"
+      - name: region
+        description: Nearest provincial capital within 700 km, otherwise `Luar wilayah`.
+        tests:
+          - not_null
+      - name: region_distance_km
+        description: Haversine distance to the assigned province's capital.
+        tests:
+          - not_null
+      - name: energy_tons_tnt
+        description: log10(E J) = 4.8 + 1.5M, converted to tons of TNT.
+        tests:
+          - not_null
+
+  - name: mart_daily_activity
+    description: Daily event counts by magnitude class on a dense date spine.
+    columns:
+      - name: activity_date
+        description: Local (WIB) calendar date.
+        tests:
+          - unique
+          - not_null
+      - name: n_events
+        description: Total earthquakes that day.
+        tests:
+          - not_null
+
+  - name: mart_region_activity
+    description: Province rollup with 30-day activity, last M5+ and a fitted b-value.
+    columns:
+      - name: region
+        description: Province name or `Luar wilayah`.
+        tests:
+          - unique
+          - not_null
+      - name: island
+        description: Island group.
+        tests:
+          - not_null
+      - name: n_events
+        description: Events assigned to the region over the full coverage window.
+        tests:
+          - not_null
+
+  - name: mart_magnitude_frequency
+    description: >
+      Magnitude bins with cumulative counts and a Gutenberg-Richter fit, for the
+      national scope and for each province with enough data.
+    columns:
+      - name: scope
+        description: "`national` or a province name."
+        tests:
+          - not_null
+      - name: mag_bin
+        description: Magnitude bin (0.1 wide).
+        tests:
+          - not_null
+      - name: n_cumulative
+        description: Events at or above the bin magnitude.
+        tests:
+          - not_null
+
+  - name: mart_depth_profile
+    description: Event counts and energy by depth class.
+    columns:
+      - name: depth_class
+        description: Depth band.
+        tests:
+          - unique
+          - not_null
+      - name: share
+        description: Share of all events.
+        tests:
+          - not_null
+
+  - name: mart_pipeline_health
+    description: One-row observability summary used by the quality gate and the dashboard footer.
+    columns:
+      - name: valid_events
+        description: Rows in the gold fact table.
+        tests:
+          - not_null
+      - name: coverage_days
+        description: Inclusive number of calendar days covered.
+        tests:
+          - not_null

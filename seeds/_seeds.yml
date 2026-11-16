@@ -1,0 +1,30 @@
+version: 2
+
+seeds:
+  - name: id_provinces
+    description: >
+      Reference list of Indonesia's 38 provinces with the coordinates of their
+      capital. Coordinates are approximate (city-centre level) and used only to
+      assign an earthquake to the nearest province, not for administrative
+      boundary work.
+    columns:
+      - name: province
+        description: Province name in Indonesian.
+        tests:
+          - unique
+          - not_null
+      - name: island
+        description: Coarse island group used for chart grouping.
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Sumatra", "Java", "Kalimantan", "Sulawesi", "Nusa Tenggara", "Maluku", "Papua"]
+      - name: lat
+        description: Latitude of the provincial capital, decimal degrees.
+        tests:
+          - not_null
+      - name: lon
+        description: Longitude of the provincial capital, decimal degrees.
+        tests:
+          - not_null

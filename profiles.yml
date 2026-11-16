@@ -1,0 +1,7 @@
+seismic:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('SEISMIC_DB', 'data/warehouse/seismic.duckdb') }}"
+      threads: 4

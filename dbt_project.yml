@@ -1,0 +1,42 @@
+name: "seismic"
+version: "1.0.0"
+config-version: 2
+
+profile: "seismic"
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  # Distance from an event to the nearest provincial capital before we stop
+  # claiming a province and mark the event as outside Indonesian territory.
+  region_distance_km: 700
+  # Completeness magnitude used for the Gutenberg-Richter fit. Offshore
+  # catalog completeness is lower than onshore, so 4.0 is a conservative choice.
+  completeness_magnitude: 4.0
+  min_cumulative_for_fit: 5
+  min_events_for_reliable_b: 40
+
+models:
+  seismic:
+    staging:
+      +materialized: view
+      +schema: silver
+    intermediate:
+      +materialized: view
+      +schema: silver
+    marts:
+      +materialized: table
+      +schema: gold
+
+seeds:
+  seismic:
+    +schema: silver
+    +quote_columns: false
+
+flags:
+  send_anonymous_usage_stats: false
